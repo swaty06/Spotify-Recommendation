@@ -114,7 +114,7 @@ def give_rec(title, df_train, sig, indices, num_recommendations=10):
 def main():
     # Header
     st.title("🎵 Song Recommendation System")
-    st.markdown("*Discover similar songs *")
+    st.markdown("*Discover similar songs*")
     
     # Sidebar
     with st.sidebar:
@@ -183,4 +183,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
