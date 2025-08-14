@@ -9,11 +9,9 @@ An AI-powered music recommendation web application that discovers similar songs 
 
 ## 🚀 Live Demo
 
-🔗 **[Try the App Here](YOUR_STREAMLIT_APP_URL)**
+🔗 **[Try the App Here](https://spotify-recommendation-ntxriehfkbsyrw8qtjwmfa.streamlit.app/)**
 
-## 📸 Screenshots
 
-*Add screenshots of your app interface here*
 
 ## ✨ Features
 
