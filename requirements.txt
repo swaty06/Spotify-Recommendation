@@ -1,16 +1,17 @@
 # Core dependencies
-pandas>=1.5.0
-scikit-learn>=1.2.0
-streamlit>=1.28.0
+pandas
+scikit-learn
+streamlit
 
 # Optional: for better performance and additional features
-numpy>=1.24.0
-scipy>=1.10.0
+numpy
+scipy
 
 # Optional: for data visualization (if you want to add charts)
-# matplotlib>=3.6.0
-# plotly>=5.15.0
+matplotlib
+plotly
 
 # Optional: for enhanced text processing
-# nltk>=3.8
-# textblob>=0.17.1
+nltk
+textblob
+
