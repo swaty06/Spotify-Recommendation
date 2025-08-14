@@ -45,3 +45,13 @@ cd song-recommendation
 - Experiment with **hybrid recommendation systems** combining content-based and collaborative filtering.  
 - Optimize performance for **large-scale datasets** with efficient vectorization and similarity calculations.
 
+- ## Technologies Used 🛠️
+
+- **Python** – Core programming language  
+- **Pandas** – Data manipulation and analysis  
+- **NumPy** – Numerical computations  
+- **Scikit-learn** –  
+  - `TfidfVectorizer` for text feature extraction  
+  - `sigmoid_kernel` for similarity calculation
+
+
