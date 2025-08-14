@@ -37,4 +37,11 @@ git clone https://github.com/your-username/song-recommendation.git
 ```bash
 cd song-recommendation
 ```
+## Future Improvements 🚀
+
+- Integrate **Spotify audio features** (danceability, tempo, energy) to make recommendations more accurate.  
+- Incorporate **lyrics embeddings** using Sentence-BERT for semantic similarity.  
+- Develop a **web interface** with Streamlit or Gradio for an interactive experience.  
+- Experiment with **hybrid recommendation systems** combining content-based and collaborative filtering.  
+- Optimize performance for **large-scale datasets** with efficient vectorization and similarity calculations.
 
