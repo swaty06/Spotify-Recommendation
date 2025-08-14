@@ -30,9 +30,11 @@ The dataset used is from Kaggle and contains song details such as:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/song-recommendation.git ```
+git clone https://github.com/your-username/song-recommendation.git
+```
 
 2. Navigate to the project folder:
 ```bash
-cd song-recommendation ```
+cd song-recommendation
+```
 
