@@ -14,7 +14,7 @@ The dataset used is from Kaggle and contains song details such as:
 - Album
 - Other metadata
 
-> Note: The dataset is **not included** due to licensing restrictions. You can download it from Kaggle.
+
 
 ---
 
