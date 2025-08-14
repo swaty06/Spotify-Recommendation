@@ -1,28 +1,51 @@
+# 🎵 Song Recommendation System
 
-# Song Recommendation System 🎵
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Content%20Based%20Filtering-orange)
 
-A simple **content-based song recommendation system** built using a Spotify-inspired dataset from Kaggle.  
-The system recommends songs based on similarity of song titles using **TF-IDF vectorization** and **sigmoid kernel** for similarity scoring.
-
----
-
-## Dataset
-
-The dataset used is from Kaggle and contains song details such as:
-- Title
-- Artist
-- Album
-- Other metadata
-
-
+A simple yet effective **content-based song recommendation system** built using a **Kaggle Spotify-inspired dataset**.  
+The system recommends songs similar to the one selected by the user, using **TF-IDF vectorization** and **Sigmoid Kernel** for similarity scoring.
 
 ---
 
-## Features
+## 📜 Overview
 
-- TF-IDF vectorization on song titles to convert text into numerical features.
-- Similarity calculation using `sigmoid_kernel` from `sklearn.metrics.pairwise`.
-- Functionality to select a song and get a list of **similar songs ranked by similarity score**.
+This project demonstrates how text-based features (song titles) can be used to recommend similar songs.  
+While basic, it serves as a starting point for building more advanced hybrid recommendation systems that combine text, audio features, and user behavior.
+
+---
+
+## 📂 Dataset
+
+- Source: [Kaggle Music Dataset](https://www.kaggle.com/) (Spotify-inspired)  
+- Contains song details such as:
+  - Title  
+  - Artist  
+  - Album  
+  - Other metadata  
+
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python** – Core programming language  
+- **Pandas** – Data manipulation and analysis  
+- **NumPy** – Numerical computations  
+- **Scikit-learn** –  
+  - `TfidfVectorizer` for text feature extraction  
+  - `sigmoid_kernel` for similarity calculation  
+
+---
+
+## 🚀 How It Works
+
+1. **Load Dataset** – Import the Kaggle dataset into a Pandas DataFrame.  
+2. **Vectorize Titles** – Convert song titles into numerical vectors using TF-IDF.  
+3. **Calculate Similarity** – Use `sigmoid_kernel` to compute similarity scores between songs.  
+4. **Recommend** – Select a song and retrieve the top N most similar songs.  
 
 ---
 
@@ -45,13 +68,5 @@ cd song-recommendation
 - Experiment with **hybrid recommendation systems** combining content-based and collaborative filtering.  
 - Optimize performance for **large-scale datasets** with efficient vectorization and similarity calculations.
 
-- ## Technologies Used 🛠️
-
-- **Python** – Core programming language  
-- **Pandas** – Data manipulation and analysis  
-- **NumPy** – Numerical computations  
-- **Scikit-learn** –  
-  - `TfidfVectorizer` for text feature extraction  
-  - `sigmoid_kernel` for similarity calculation
 
 
