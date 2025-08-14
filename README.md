@@ -34,7 +34,7 @@ An AI-powered music recommendation web application that discovers similar songs 
 
 1. **Data Preprocessing**: Cleans and processes song titles from the dataset
 2. **TF-IDF Vectorization**: Converts song titles into numerical vectors
-3. **Similarity Calculation**: Uses cosine similarity to find similar songs
+3. **Similarity Calculation**: Uses sigmoid_kernel to find similar songs
 4. **Real-time Recommendations**: Instantly displays results when user selects a song
 
 ### Algorithm Details
